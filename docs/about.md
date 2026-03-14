@@ -7,10 +7,15 @@
 - Masters research on environmental sorting and spatial inequality across US Commuting Zones
 - Coursework in applied microeconometrics, spatial economics, environmental economics, and development economics
 
-**Applied Microeconometrics** — KDI School of Public Policy and Management, South Korea
+---
 
-- Advanced causal inference methods: IV, Difference-in-Differences, Regression Discontinuity
-- Panel data methods, bootstrapping, penalized regression
+## Experience
+
+- **Research Assistant** — Academic econometric research and dataset construction
+- **Consultant, CEEW** — Impact evaluation of agricultural interventions for the Council on Energy, Environment and Water
+- **Associate, ZS** — Analytics and strategy consulting
+- **Private Equity** — Investment analysis and portfolio work
+- **Tata Trusts** — Short-term engagement in development sector programmes
 
 ---
 
