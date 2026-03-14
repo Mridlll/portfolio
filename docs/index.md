@@ -71,7 +71,7 @@ I build things at the intersection of **rigorous economics research** and **prod
 | **20** | Multi-strategy trading bots running 24/7 on Hyperliquid |
 | **725** | Indian districts analyzed for crop diversification patterns (1997-2021) |
 | **741** | US Commuting Zones in panel dataset (1980-2023, 72 variables) |
-| **917** | Smallholder farmers in APCNF impact evaluation |
+| **~900** | Smallholder farmers in agricultural impact evaluation |
 | **864** | Backtest variants in WickTrader grid search |
 | **5** | DEXes compared in real-time liquidity analyzer |
 

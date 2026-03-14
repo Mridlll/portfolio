@@ -16,7 +16,7 @@
 
 ## Research Interests
 
-- **Development Economics** — agricultural technology adoption, natural farming impact evaluation, Indian informal sector
+- **Development Economics** — agricultural technology adoption, sustainable farming impact evaluation, Indian informal sector
 - **Environmental Economics** — pollution and spatial sorting, climate-macro linkages, air quality and migration
 - **Urban & Spatial Economics** — intra-urban environmental justice, commuting zone dynamics, district-level banking access
 - **Agricultural Economics** — crop diversification, irrigation-biodiversity tradeoffs, food security metrics
@@ -27,7 +27,7 @@
 
 ### Econometric Analysis & Causal Inference
 
-I design and execute full econometric pipelines — from raw data to publication-ready results. My toolkit includes ANCOVA, propensity score matching, IPW, IV estimation, panel fixed effects, and sensitivity analysis (Oster bounds). I've applied these methods to evaluate government programs (APCNF natural farming), replicate QJE-level research (Bilal & Kanzig), and build original datasets for spatial economics.
+I design and execute full econometric pipelines — from raw data to publication-ready results. My toolkit includes ANCOVA, propensity score matching, IPW, IV estimation, panel fixed effects, and sensitivity analysis (Oster bounds). I've applied these methods to evaluate agricultural interventions at scale, replicate QJE-level research (Bilal & Kanzig), and build original datasets for spatial economics.
 
 ### Dataset Construction & Spatial Harmonization
 

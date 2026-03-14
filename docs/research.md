@@ -4,15 +4,15 @@ Causal inference, spatial econometrics, and policy evaluation across development
 
 ---
 
-## APCNF Impact Evaluation
+## Agricultural Intervention Impact Evaluation
 
-**Evaluating Natural Farming in Andhra Pradesh** | [GitHub](https://github.com/Mridlll/APCNF-demo)
+**Sustainable Farming Practice Adoption in South India** | [GitHub](https://github.com/Mridlll/APCNF-demo)
 
-Full econometric pipeline assessing the impact of Pre-Monsoon Dry Sowing (PMDS) — a natural farming practice — on 917 smallholder farmers across Andhra Pradesh, India. Conducted for the Council on Energy, Environment and Water (CEEW).
+Full econometric pipeline assessing the impact of a sustainable agricultural intervention on ~900 smallholder farmers in southern India. Conducted for a leading energy and environment think tank.
 
 ??? info "Methodology"
 
-    - ANCOVA with district fixed effects, SEs clustered at mandal level (77 clusters)
+    - ANCOVA with district fixed effects, clustered standard errors (~75 clusters)
     - Inverse Hyperbolic Sine (IHS) transformation for cost variables with zeros
     - Propensity Score Matching & Inverse Probability Weighting
     - Oster bounds for selection on unobservables
@@ -22,13 +22,12 @@ Full econometric pipeline assessing the impact of Pre-Monsoon Dry Sowing (PMDS) 
 
 **Key Findings:**
 
-| Outcome | Effect | p-value |
-|---------|--------|---------|
-| Women's empowerment score | +0.56 participation score | 0.009 |
-| Kitchen garden adoption | +18 percentage points | <0.001 |
-| Chemical fertilizer costs | -92% (IHS) | <0.001 |
-| Pesticide costs | -86% (IHS) | <0.01 |
-| Diet diversity (consumption adopters) | +0.95 HDDS | <0.001 |
+| Outcome | Direction |
+|---------|-----------|
+| Women's empowerment | Significant positive effect |
+| Home garden adoption | ~20 pp increase |
+| Chemical input costs | Dropped by 85-95% |
+| Diet diversity (adopters) | Significant improvement |
 
 **Stack:** Python, statsmodels, linearmodels, matplotlib, Plotly, LaTeX/Beamer
 
