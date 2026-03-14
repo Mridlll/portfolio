@@ -94,5 +94,7 @@ I build modern web applications using Next.js, TypeScript, and the T3 stack (tRP
 
 ## Contact
 
+- **Telegram:** [@mridll](https://t.me/mridll)
+- **Email:** mridlll.k@gmail.com
 - **GitHub:** [github.com/Mridlll](https://github.com/Mridlll)
 
