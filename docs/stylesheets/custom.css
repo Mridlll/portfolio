@@ -1,0 +1,226 @@
+/* ================================================================
+   Portfolio custom styles - matching thesis showcase aesthetic
+   Fonts: Crimson Pro (display), Source Serif 4 (body), JetBrains Mono (code)
+   Palette: warm off-white, burnt sienna accent
+   ================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&display=swap');
+
+:root {
+  /* Override Material palette */
+  --md-primary-fg-color: #8B2500;
+  --md-primary-fg-color--light: #C44D2A;
+  --md-primary-fg-color--dark: #6B1D00;
+  --md-accent-fg-color: #8B2500;
+  --md-accent-fg-color--transparent: rgba(139, 37, 0, 0.1);
+
+  /* Typography */
+  --md-text-font: "Source Serif 4", Georgia, serif;
+  --md-code-font: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Background */
+  --md-default-bg-color: #FAFAF7;
+  --md-default-bg-color--light: #F2F0EB;
+  --md-default-bg-color--lighter: #F8F6F2;
+  --md-default-bg-color--lightest: #FAFAF7;
+}
+
+/* Slate (dark mode) overrides */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #1A1A1A;
+  --md-default-bg-color--light: #242424;
+  --md-default-bg-color--lighter: #2A2A2A;
+  --md-default-bg-color--lightest: #1A1A1A;
+  --md-primary-fg-color: #C44D2A;
+  --md-accent-fg-color: #C44D2A;
+}
+
+/* Headings in Crimson Pro */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #E8E4DC;
+  padding-bottom: 0.4rem;
+}
+
+/* Body text refinements */
+.md-typeset {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #1A1A1A;
+}
+
+[data-md-color-scheme="slate"] .md-typeset {
+  color: #D4D0C8;
+}
+
+/* Navigation header */
+.md-header {
+  background-color: #FAFAF7;
+  color: #1A1A1A;
+  box-shadow: 0 1px 0 #E8E4DC;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #1A1A1A;
+  color: #D4D0C8;
+  box-shadow: 0 1px 0 #333;
+}
+
+.md-header__title {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-weight: 600;
+}
+
+/* Tabs */
+.md-tabs {
+  background-color: #FAFAF7;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #1A1A1A;
+}
+
+/* Links */
+.md-typeset a {
+  color: #8B2500;
+}
+
+.md-typeset a:hover {
+  color: #C44D2A;
+}
+
+/* Admonitions - warmer tones */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 4px;
+  font-size: 0.88rem;
+}
+
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-left-color: #8B2500;
+}
+
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: rgba(139, 37, 0, 0.08);
+}
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #2B4C7E;
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(43, 76, 126, 0.08);
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+  border: 1px solid #E8E4DC;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #F2F0EB;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #4A4A4A;
+}
+
+.md-typeset table:not([class]) td {
+  border-color: #E8E4DC;
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+}
+
+.md-typeset .md-button--primary {
+  background-color: #8B2500;
+  border-color: #8B2500;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #C44D2A;
+  border-color: #C44D2A;
+}
+
+/* Cards grid */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid #E8E4DC;
+  border-radius: 6px;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: #D4D0C8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Code blocks */
+.md-typeset code {
+  background-color: #F2F0EB;
+  border: 1px solid #E8E4DC;
+  border-radius: 3px;
+  font-size: 0.82em;
+  padding: 0.1em 0.3em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: #2A2A2A;
+  border-color: #333;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #F2F0EB;
+  color: #4A4A4A;
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #1A1A1A;
+}
+
+/* Selection */
+::selection {
+  background: #8B2500;
+  color: #fff;
+}
+
+/* Sidebar nav */
+.md-nav__link--active {
+  color: #8B2500 !important;
+  font-weight: 600;
+}
+
+/* Search */
+.md-search__input {
+  background-color: #F2F0EB;
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+  background-color: #2A2A2A;
+}

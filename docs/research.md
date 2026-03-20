@@ -4,6 +4,37 @@ Causal inference, spatial econometrics, and policy evaluation across development
 
 ---
 
+## Sorting Into Pollution
+
+**Labor Market Access, Information, and the Location Decisions of Young Workers** | MSc Thesis, Heidelberg University
+
+[:material-web: Interactive Showcase](https://mridlll.github.io/Sorting-Into-Pollution/){ .md-button } [:material-file-pdf-box: Full PDF](https://mridlll.github.io/Sorting-Into-Pollution/thesis.pdf){ .md-button .md-button--primary } [:material-github: Repository](https://github.com/Mridlll/Sorting-Into-Pollution){ .md-button }
+
+Young low-skill workers systematically sort into polluted commuting zones without receiving compensating wage differentials. Using NOAA's HYSPLIT atmospheric trajectory model as an instrumental variable, this paper documents a market failure that costs $4.66 billion annually and falls disproportionately on Black workers.
+
+??? info "Identification & Methodology"
+
+    - Instrumental variable: upwind PM2.5 from HYSPLIT 72-hour backward trajectories (F = 184.7)
+    - Panel data: 247 commuting zones, 13,569 CZ-year observations (2000-2019)
+    - Demographic data: IPUMS ACS 1-year samples, 239M individual records
+    - Pollution data: ACAG satellite-derived PM2.5 (Washington University)
+    - Robustness: Conley spatial SEs, permutation inference, Oster bounds, placebo tests
+
+**Key Findings:**
+
+| Result | Estimate |
+|--------|----------|
+| IV coefficient (10% PM2.5 increase) | +1.37 pp young worker share |
+| Compensating wage differential | None (n.s.) |
+| Manufacturing mechanism | ~30% of sorting explained |
+| Temporal decline (2000-2019) | ~80% reduction |
+| Racial disparity (Black vs. White) | +22% stronger sorting |
+| Annual welfare cost (national) | $4.66 billion |
+
+**Stack:** Python, statsmodels, linearmodels, D3.js, LaTeX/MiKTeX
+
+---
+
 ## Agricultural Intervention Impact Evaluation
 
 **Sustainable Farming Practice Adoption in South India** | [GitHub](https://github.com/Mridlll/APCNF-demo)

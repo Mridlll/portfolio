@@ -51,6 +51,16 @@ I build things at the intersection of **rigorous economics research** and **prod
 
 ---
 
+## Featured: MSc Thesis
+
+!!! abstract "Sorting Into Pollution: Labor Market Access, Information, and the Location Decisions of Young Workers"
+
+    Young workers systematically sort into polluted commuting zones. Using atmospheric transport as an IV (F = 184.7), I find a 10% PM2.5 increase causes 1.37 pp higher young worker share, with no compensating wage differential. Annual welfare cost: **$4.66 billion**.
+
+    [:material-web: Interactive Showcase](https://mridlll.github.io/Sorting-Into-Pollution/){ .md-button } [:material-file-pdf-box: Thesis PDF](https://mridlll.github.io/Sorting-Into-Pollution/thesis.pdf){ .md-button }
+
+---
+
 ## Technical Stack
 
 | Domain | Tools |
